@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(51, 107, 107);
+    color: #fff;
+    text-align: center;
+}
+
+ol.list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+table{
+    width: 100%;
+    color: #fff;
+}
+
+table, th, td {
+    border: 1px solid white;
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .img {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
